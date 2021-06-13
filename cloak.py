@@ -7,13 +7,13 @@ for i in range(50):
     istrue,background = cap.read()
 # because to end mirror effect caused by webcam we need to flip
     background= cv.flip(background,1)
-
-
-
-
+lim = np.array([0,120,70],[10,255,255])
+red = np.array([172,120,70],[100,255,255])
 while True:
     istrue, frame = cap.read()
     frame= cv.flip(frame,1)
+    hsv = cv.cvtColor(frame,cv.COLOR_BGR2HSV)
+    
     cv.imshow('webcam',frame)
     cv.imshow('background',background)
     if cv.waitKey(1) & 0xFF == ord('d'):
