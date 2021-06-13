@@ -1,8 +1,8 @@
 # Invisiblity-cloak
 Harry Potter Invisible Cloak Using Python &amp; Opencv
 # How to run?
-## install dependencies
+## Install dependencies
 * pip install opencv-python
 * pip install numpy
-* 
+### RUN CLOAK.PY
 
