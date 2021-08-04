@@ -5,4 +5,4 @@ Harry Potter Invisible Cloak Using Python &amp; Opencv
 * pip install opencv-python
 * pip install numpy
 ### RUN CLOAK.PY
-Hint: Make sure to keep a webcam handy :grinning::grinning:.
+Hint: Make sure to keep a webcam and a red cloth handy :grinning::grinning:. 
